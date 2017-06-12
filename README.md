@@ -1,8 +1,19 @@
 # jbash
 Yet another `.bash_profile` on GitHub.
 
+## Features
+* [brew](https://brew.sh/)
+* [macvim](https://github.com/macvim-dev/macvim)
+* [ctags](https://ctags.sourceforge.io/)
+* [grip](https://github.com/joeyespo/grip)
+* [thefuck](https://github.com/nvbn/thefuck)
+* [fortune](https://www.ibiblio.org/pub/linux/games/amusements/fortune/!INDEX.html)
+* [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
+* [coreutils](https://www.gnu.org/software/coreutils)
+* [jvim](https://github.com/josuegaleas/jvim)
+
 ## Installation
-```
+```Shell
 touch ~/.hushlogin
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
