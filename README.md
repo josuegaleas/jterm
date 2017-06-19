@@ -10,6 +10,7 @@ Yet another `.bash_profile` on GitHub.
 * [fortune](https://www.ibiblio.org/pub/linux/games/amusements/fortune/!INDEX.html)
 * [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
 * [coreutils](https://www.gnu.org/software/coreutils)
+* [lolcat](https://github.com/busyloop/lolcat)
 * [jvim](https://github.com/josuegaleas/jvim)
 
 ## Installation
@@ -18,7 +19,7 @@ touch ~/.hushlogin
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install macvim ctags grip
-brew install thefuck fortune cowsay coreutils
+brew install thefuck fortune cowsay coreutils lolcat
 git clone https://github.com/josuegaleas/jbash.git ~/Projects/jbash
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/josuegaleas/jvim.git ~/Projects/jvim
