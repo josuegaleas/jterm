@@ -11,6 +11,8 @@ Yet another `.bash_profile` on GitHub.
 * [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
 * [coreutils](https://www.gnu.org/software/coreutils)
 * [lolcat](https://github.com/busyloop/lolcat)
+* [graphviz](http://graphviz.org/)
+* [brew-graph](https://github.com/martido/brew-graph)
 * [jvim](https://github.com/josuegaleas/jvim)
 
 ## Installation
@@ -20,12 +22,13 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install macvim ctags grip
 brew install thefuck fortune cowsay coreutils lolcat
+brew install graphviz brew-graph
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/josuegaleas/jbash.git ~/Projects/jbash
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git clone https://github.com/josuegaleas/jvim.git ~/Projects/jvim
+git clone -b personal https://github.com/josuegaleas/jvim.git ~/Projects/jvim
 ln -s ~/Projects/jbash/.bash_profile ~/.bash_profile
-cd ~/Projects/jvim && git checkout personal && cd ~
 ln -s ~/Projects/jvim/.vimrc ~/.vimrc
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 vim -c ":PromptlineSnapshot! ~/.shell.sh airline" +qall
 ```

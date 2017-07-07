@@ -11,6 +11,9 @@ source ~/.prompt.sh
 eval "$(thefuck --alias)"
 fortune | cowsay -f `ls -1 /usr/local/Cellar/cowsay/3.04/share/cows/*.cow | gsort -R | head -1` -n | lolcat
 
+# Brew
+alias brewg="brew graph --installed --highlight-leaves | fdp -Tpng -ograph.png"
+
 # Vim
 alias vim="mvim -v"
 alias vimrc="mvim -v ~/.vimrc"
