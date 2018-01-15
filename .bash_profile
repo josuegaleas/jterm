@@ -1,4 +1,4 @@
-alias bashp="mvim -v ~/.bash_profile"
+alias bashp='mvim -v ~/.bash_profile'
 alias krc='mvim -v ~/Library/Preferences/kitty/kitty.conf'
 
 source ~/.aliases.sh

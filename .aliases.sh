@@ -2,11 +2,11 @@
 alias ls='ls -FG'
 alias ll='ls -aFGhlo'
 alias rm='rm -rf'
-alias clear='clear && ls -FG'
 alias grep='grep --color -rnw'
 
-# Brew
+# Other
 alias brewg='brew graph --installed --highlight-leaves | fdp -Tpng -ograph.png'
+alias wttr='curl wttr.in/los-angeles'
 
 # Vim
 alias vim='mvim -v'
@@ -24,7 +24,7 @@ alias gitls='git log --oneline -10'
 alias gitll='git log --graph --oneline --decorate --all'
 
 # Python
-alias ptf='source ~/.tensorflow/bin/activate'
+alias tf='source ~/.tensorflow/bin/activate'
 
 # macOS
 alias desktopOff='defaults write com.apple.finder CreateDesktop -bool false && killall Finder'
