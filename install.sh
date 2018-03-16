@@ -1,6 +1,7 @@
-echo \> Starting jterm setup...
+echo \> Starting \'jterm\' setup...
 echo -------------------------------------------------------------------------------
 touch ~/.hushlogin
+mkdir ~/Projects
 xcode-select --install
 echo \> Command line tools have been successfully installed!
 echo -------------------------------------------------------------------------------
@@ -13,4 +14,7 @@ echo ---------------------------------------------------------------------------
 sh terminal.sh
 echo \> Terminal has been successfully setup!
 echo -------------------------------------------------------------------------------
-echo \> jterm setup complete!
+sh python.sh
+echo \> Python has been successfully setup!
+echo -------------------------------------------------------------------------------
+echo \> \'jterm\' setup complete!
