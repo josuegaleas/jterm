@@ -7,6 +7,7 @@ alias grep='grep --color -rnw'
 # Other
 alias brewg='brew graph --installed --highlight-leaves | fdp -Tpng -ograph.png'
 alias wttr='curl wttr.in/los-angeles'
+alias sl='streamlink --player "mpv --border=no"'
 
 # Vim
 alias vim='mvim -v'
@@ -18,7 +19,7 @@ alias gitc='git commit -m'
 alias gits='git status -s'
 alias gitd='git diff --staged --word-diff'
 alias gitr='git reset HEAD~'
-alias gpush='git push -u -v origin'
+alias gpush='git push -u -v'
 alias gpull='git pull -v'
 alias gitls='git log --oneline -10'
 alias gitll='git log --graph --oneline --decorate --all'
