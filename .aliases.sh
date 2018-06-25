@@ -5,6 +5,7 @@ alias rm='rm -rf'
 alias grep='grep --color -rnw'
 
 # Other
+alias krc='mvim -v ~/Library/Preferences/kitty/kitty.conf'
 alias brewg='brew graph --installed --highlight-leaves | fdp -Tpng -ograph.png'
 alias wttr='curl wttr.in/los-angeles'
 alias sl='streamlink --player "mpv --border=no"'
@@ -25,8 +26,6 @@ alias gitls='git log --oneline -10'
 alias gitll='git log --graph --oneline --decorate --all'
 
 # macOS
-alias desktopOff='defaults write com.apple.finder CreateDesktop -bool false && killall Finder'
-alias desktopOn='defaults write com.apple.finder CreateDesktop -bool true && killall Finder'
 alias hiddenOff='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
 alias hiddenOn='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
 alias resetLP='defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock'
@@ -34,5 +33,5 @@ alias resetDock='defaults delete com.apple.dock && killall Dock'
 
 # jay
 alias cj='cp ~/Projects/jay/colors/jay.vim ~/.vim/plugged/jay/colors/jay.vim'
-alias air='cp ~/Projects/jay/autoload/airline/themes/jay.vim ~/.vim/plugged/jay/autoload/airline/themes/jay.vim'
-alias lig='cp ~/Projects/jay/autoload/lightline/colorscheme/jay.vim ~/.vim/plugged/jay/autoload/lightline/colorscheme/jay.vim'
+alias ca='cp ~/Projects/jay/autoload/airline/themes/jay.vim ~/.vim/plugged/jay/autoload/airline/themes/jay.vim'
+alias cl='cp ~/Projects/jay/autoload/lightline/colorscheme/jay.vim ~/.vim/plugged/jay/autoload/lightline/colorscheme/jay.vim'

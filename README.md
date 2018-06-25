@@ -1,8 +1,13 @@
 # jterm
 Yet another dotfiles repo on GitHub.
 
+## Install
+```bash
+sudo sh install.sh
+```
+
 ## Features
-- [brew](https://brew.sh/)
+- [homebrew](https://brew.sh/)
 - [cask](https://caskroom.github.io/)
 - [graphviz](http://graphviz.org/)
 - [brew-graph](https://github.com/martido/brew-graph)
@@ -11,10 +16,11 @@ Yet another dotfiles repo on GitHub.
 - [coreutils](https://www.gnu.org/software/coreutils)
 - [lolcat](https://github.com/busyloop/lolcat)
 - [zsh](https://www.zsh.org/)
+- [antigen](https://antigen.sharats.me/)
+- [git-extras](https://github.com/tj/git-extras)
+- [macvim](https://github.com/macvim-dev/macvim)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 - [cmatrix](https://www.asty.org/cmatrix/)
-- [macvim](https://github.com/macvim-dev/macvim)
-- [ctags](https://ctags.sourceforge.io/)
 - [gcc](https://gcc.gnu.org/)
 - [octave](https://www.gnu.org/software/octave/index.html)
 - [python](https://www.python.org/)
@@ -24,6 +30,7 @@ Yet another dotfiles repo on GitHub.
 - [mpv](https://mpv.io)
 - [streamlink](https://streamlink.github.io/)
 - [ems-flasher](https://lacklustre.net/projects/ems-flasher/)
+- [rtv](https://github.com/michael-lazar/rtv)
 - [kitty](https://github.com/kovidgoyal/kitty)
 - [font-hack](http://sourcefoundry.org/hack/)
 - [xquartz](https://www.xquartz.org/)

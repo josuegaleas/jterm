@@ -12,11 +12,12 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-export PATH=/usr/local/bin:$PATH
-alias zrc='mvim -v ~/.zshrc'
-alias krc='mvim -v ~/Library/Preferences/kitty/kitty.conf'
+source /usr/local/share/antigen/antigen.zsh
+GEOMETRY_PROMPT_PREFIX=""
+antigen theme geometry-zsh/geometry
+antigen apply
 
+alias zrc='mvim -v ~/.zshrc'
 source ~/.aliases.sh
-source ~/.prompt.sh
 
 fortune | cowsay -f `ls -1 /usr/local/Cellar/cowsay/3.04/share/cows/*.cow | gsort -R | head -1` -n | lolcat
