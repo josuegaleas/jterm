@@ -1,6 +1,6 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/science martido/brew-graph
-brew tap homebrew/cask homebrew/cask-fonts homebrew/cask-versions
+brew tap martido/brew-graph osx-cross/avr
+brew tap homebrew/cask homebrew/cask-fonts
 brew install graphviz brew-graph
 brew install fortune cowsay coreutils lolcat
 brew install zsh antigen
