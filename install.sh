@@ -3,18 +3,21 @@ echo ---------------------------------------------------------------------------
 touch ~/.hushlogin
 mkdir ~/Projects
 xcode-select --install
-echo \> Command line tools have been successfully installed!
+echo \> Command line tools have been installed!
 echo -------------------------------------------------------------------------------
-sh brew.sh
-echo \> Brew has been successfully setup!
+bash <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/brew.sh)
+echo \> Brew has been set up!
 echo -------------------------------------------------------------------------------
-sh vim.sh
-echo \> Vim has been successfully setup!
+bash <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/vim.sh)
+echo \> Vim has been set up!
 echo -------------------------------------------------------------------------------
-sh terminal.sh
-echo \> Terminal has been successfully setup!
+bash <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/terminal.sh)
+echo \> Terminal has been set up!
 echo -------------------------------------------------------------------------------
-sh python.sh
-echo \> Python has been successfully setup!
+bash <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/python.sh)
+echo \> Python has been set up!
+echo -------------------------------------------------------------------------------
+bash <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/projects.sh)
+echo \> Projects have been set up!
 echo -------------------------------------------------------------------------------
 echo \> \'jterm\' setup complete!

@@ -1,26 +1,24 @@
 # jterm
-Yet another dotfiles repo on GitHub.
+Yet another dotfiles repo on GitHub. Powered by [Homebrew](https://brew.sh/).
 
 ## Install
 ```bash
-sudo sh install.sh
+bash <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/install.sh)
 ```
 
-## Features
-- [homebrew](https://brew.sh/)
-- [cask](https://caskroom.github.io/)
+## Packages
 - [graphviz](http://graphviz.org/)
 - [brew-graph](https://github.com/martido/brew-graph)
+- [zsh](https://www.zsh.org/)
+- [antigen](https://antigen.sharats.me/)
 - [fortune](https://www.ibiblio.org/pub/linux/games/amusements/fortune/!INDEX.html)
 - [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
 - [coreutils](https://www.gnu.org/software/coreutils)
 - [lolcat](https://github.com/busyloop/lolcat)
-- [zsh](https://www.zsh.org/)
-- [antigen](https://antigen.sharats.me/)
-- [macvim](https://github.com/macvim-dev/macvim)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 - [cmatrix](https://www.asty.org/cmatrix/)
-- [gcc](https://gcc.gnu.org/)
+- [pipes-sh](https://github.com/pipeseroni/pipes.sh)
+- [macvim](https://github.com/macvim-dev/macvim)
 - [octave](https://www.gnu.org/software/octave/index.html)
 - [python](https://www.python.org/)
 - [avr-gcc](https://www.gnu.org/software/gcc/gcc.html)
@@ -28,9 +26,13 @@ sudo sh install.sh
 - [youtube-dl](https://rg3.github.io/youtube-dl/)
 - [mpv](https://mpv.io)
 - [streamlink](https://streamlink.github.io/)
+- [djview4](https://djvu.sourceforge.io/djview4.html)
+- [djvu2pdf](http://0x2a.at/s/projects/djvu2pdf)
 - [kitty](https://github.com/kovidgoyal/kitty)
 - [font-hack](http://sourcefoundry.org/hack/)
 - [xquartz](https://www.xquartz.org/)
+
+## Also Included
 - [jvim](https://github.com/josuegaleas/jvim)
 - [grip](http://github.com/joeyespo/grip)
 - [tensorflow](https://www.tensorflow.org/)
