@@ -7,6 +7,7 @@ brew install fortune cowsay coreutils lolcat
 brew install neofetch cmatrix pipes-sh
 brew install macvim octave python
 brew install avr-gcc dfu-programmer
-brew install youtube-dl mpv streamlink
+brew install mpv streamlink
+brew install youtube-dl mps-youtube
 brew install djview4 djvu2pdf
 brew cask install kitty font-hack xquartz
