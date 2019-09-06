@@ -12,12 +12,13 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-source /usr/local/share/antigen/antigen.zsh
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
 GEOMETRY_PROMPT_PREFIX=""
-antigen theme geometry-zsh/geometry
-antigen apply
+zplug "geometry-zsh/geometry"
+zplug load
 
 alias zrc='mvim -v ~/.zshrc'
 source ~/.aliases.sh
 
-fortune | cowsay -f `ls -1 /usr/local/Cellar/cowsay/3.04/share/cows/*.cow | gsort -R | head -1` -n | lolcat
+fortune -s | cowsay

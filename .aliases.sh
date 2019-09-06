@@ -3,10 +3,7 @@ alias ls='ls -FG'
 alias ll='ls -aFGhlo'
 alias rm='rm -rf'
 alias grep='grep --color -rnw'
-
-# Other
-alias krc='mvim -v ~/Library/Preferences/kitty/kitty.conf'
-alias brewg='brew graph --installed --highlight-leaves | fdp -Tpng -ograph.png'
+alias clr='tput reset'
 
 # Vim
 alias vim='mvim -v'
@@ -23,9 +20,10 @@ alias gpull='git pull -v'
 alias gitls='git log --oneline -10'
 alias gitll='git log --graph --oneline --decorate --all'
 
-# Video
+# Other
+alias krc='mvim -v ~/Library/Preferences/kitty/kitty.conf'
+alias brewg='brew graph --installed --highlight-leaves | fdp -Tpng -ograph.png'
 alias mpv='mpv --border=no'
-alias sl='streamlink --player "mpv --border=no"'
 
 # macOS
 alias hiddenOff='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
