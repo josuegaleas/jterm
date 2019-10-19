@@ -3,4 +3,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 git clone -b personal https://github.com/josuegaleas/jvim.git ~/Projects/jvim
 ln -s ~/Projects/jvim/.vimrc ~/.vimrc
 ln -s ~/Projects/jvim/.jline.vim ~/.jline.vim
-mvim -v +PlugInstall +qall
+vim +PlugInstall +qall

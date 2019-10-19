@@ -18,7 +18,6 @@ GEOMETRY_PROMPT_PREFIX=""
 zplug "geometry-zsh/geometry"
 zplug load
 
-alias zrc='mvim -v ~/.zshrc'
 source ~/.aliases.sh
 
 fortune -s | cowsay

@@ -1,13 +1,13 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew -v analytics off
-brew tap martido/brew-graph
+brew tap martido/homebrew-graph
 brew tap osx-cross/avr
 brew tap homebrew/cask-fonts
-brew install graphviz brew-graph
-brew install zsh zplug tldr
+brew install zsh zplug
 brew install fortune cowsay neofetch
-brew install python octave macvim
+brew install python octave vim
+brew install graphviz tldr
 brew install avr-gcc dfu-programmer
-brew install youtube-dl mpv
+brew install youtube-dl
 brew install djview4 djvu2pdf
-brew cask install kitty font-hack java xquartz
+brew cask install mpv kitty font-hack java xquartz

@@ -2,12 +2,9 @@
 alias ls='ls -FG'
 alias ll='ls -aFGhlo'
 alias rm='rm -rf'
-alias grep='grep --color -rnw'
 alias clr='tput reset'
-
-# Vim
-alias vim='mvim -v'
-alias vimrc='mvim -v ~/.vimrc'
+alias grep='grep --color -rnw'
+alias ssh='TERM=xterm-256color ssh'
 
 # Git
 alias gita='git add -v -A'
@@ -20,8 +17,12 @@ alias gpull='git pull -v'
 alias gitls='git log --oneline -10'
 alias gitll='git log --graph --oneline --decorate --all'
 
+# Preferences
+alias zrc='vim ~/.zshrc'
+alias vimrc='vim ~/.vimrc'
+alias krc='vim ~/Library/Preferences/kitty/kitty.conf'
+
 # Other
-alias krc='mvim -v ~/Library/Preferences/kitty/kitty.conf'
 alias brewg='brew graph --installed --highlight-leaves | fdp -Tpng -ograph.png'
 alias mpv='mpv --border=no'
 
