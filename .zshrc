@@ -4,7 +4,6 @@ HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
-
 # The following lines were added by compinstall
 zstyle :compinstall filename '/Users/josue/.zshrc'
 
@@ -18,6 +17,7 @@ GEOMETRY_PROMPT_PREFIX=""
 zplug "geometry-zsh/geometry"
 zplug load
 
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
 source ~/.aliases.sh
 
 fortune -s | cowsay

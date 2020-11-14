@@ -17,6 +17,9 @@ echo ---------------------------------------------------------------------------
 zsh <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/python.sh)
 echo \> Python has been set up!
 echo -------------------------------------------------------------------------------
+zsh <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/java.sh)
+echo \> Java has been set up!
+echo -------------------------------------------------------------------------------
 zsh <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/projects.sh)
 echo \> Projects have been set up!
 echo -------------------------------------------------------------------------------

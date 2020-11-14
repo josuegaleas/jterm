@@ -33,6 +33,6 @@ alias resetLP='defaults write com.apple.dock ResetLaunchPad -bool true && killal
 alias resetDock='defaults delete com.apple.dock && killall Dock'
 
 # jay
-alias cj='cp ~/Projects/jay/colors/jay.vim ~/.vim/plugged/jay/colors/jay.vim'
-alias ca='cp ~/Projects/jay/autoload/airline/themes/jay.vim ~/.vim/plugged/jay/autoload/airline/themes/jay.vim'
-alias cl='cp ~/Projects/jay/autoload/lightline/colorscheme/jay.vim ~/.vim/plugged/jay/autoload/lightline/colorscheme/jay.vim'
+alias copyj='cp ~/Projects/jay/colors/jay.vim ~/.vim/plugged/jay/colors/jay.vim'
+alias copya='cp ~/Projects/jay/autoload/airline/themes/jay.vim ~/.vim/plugged/jay/autoload/airline/themes/jay.vim'
+alias copyl='cp ~/Projects/jay/autoload/lightline/colorscheme/jay.vim ~/.vim/plugged/jay/autoload/lightline/colorscheme/jay.vim'
