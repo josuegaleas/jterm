@@ -9,3 +9,5 @@ chsh -s /usr/local/bin/zsh
 
 git config --global user.name "josuegaleas"
 git config --global user.email josuejgaleas@gmail.com
+
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk

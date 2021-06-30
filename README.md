@@ -3,12 +3,17 @@ Yet another dotfiles repo on GitHub. Powered by [Homebrew](https://brew.sh/).
 
 ## Installation
 ```bash
-zsh <(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/install.sh)
+xcode-select --install
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/install.sh)"
 ```
-After installation and restarting the terminal, run `zplug install`.
+After installing, and restarting the terminal, run `zplug install`.
+
+## Taps
+- [graph](https://github.com/martido/homebrew-graph)
+- [avr](https://github.com/osx-cross/homebrew-avr)
+- [cask-fonts](https://github.com/homebrew/homebrew-cask-fonts)
 
 ## Packages
-- [homebrew-graph](https://github.com/martido/homebrew-graph)
 - [zsh](https://www.zsh.org/)
 - [zplug](https://github.com/zplug/zplug/)
 - [python](https://www.python.org/)
@@ -16,15 +21,15 @@ After installation and restarting the terminal, run `zplug install`.
 - [vim](https://www.vim.org/)
 - [fortune](https://www.ibiblio.org/pub/linux/games/amusements/fortune/!INDEX.html)
 - [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
-- [neofetch](https://github.com/dylanaraps/neofetch)
 - [graphviz](https://www.graphviz.org/)
 - [tldr](https://tldr.sh/)
 - [avr-gcc](https://www.gnu.org/software/gcc/gcc.html)
 - [dfu-programmer](https://dfu-programmer.sourceforge.io/)
-- [youtube-dl](https://youtube-dl.org/ )
+- [catch2](https://github.com/catchorg/Catch2)
+- [glfw](https://www.glfw.org/)
+- [fmt](https://fmt.dev/)
+- [youtube-dl](https://youtube-dl.org/)
 - [mpv](https://mpv.io)
-- [djview4](https://djvu.sourceforge.io/djview4.html)
-- [djvu2pdf](https://0x2a.at/site/projects/djvu2pdf/)
 
 ## Casks
 - [kitty](https://github.com/kovidgoyal/kitty)
@@ -33,4 +38,5 @@ After installation and restarting the terminal, run `zplug install`.
 
 ## Also Included
 - [jvim](https://github.com/josuegaleas/jvim)
+- [pipdeptree](https://github.com/naiquevin/pipdeptree)
 - [grip](https://github.com/joeyespo/grip)
