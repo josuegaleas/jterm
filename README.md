@@ -17,7 +17,7 @@ After installing, and restarting the terminal, run `zplug install`.
 - [zsh](https://www.zsh.org/)
 - [zplug](https://github.com/zplug/zplug/)
 - [python](https://www.python.org/)
-- [java](https://openjdk.java.net/)
+- [openjdk](https://openjdk.java.net/)
 - [vim](https://www.vim.org/)
 - [fortune](https://www.ibiblio.org/pub/linux/games/amusements/fortune/!INDEX.html)
 - [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
@@ -25,10 +25,10 @@ After installing, and restarting the terminal, run `zplug install`.
 - [tldr](https://tldr.sh/)
 - [avr-gcc](https://www.gnu.org/software/gcc/gcc.html)
 - [dfu-programmer](https://dfu-programmer.sourceforge.io/)
+- [cmake](https://www.cmake.org/)
 - [catch2](https://github.com/catchorg/Catch2)
-- [glfw](https://www.glfw.org/)
 - [fmt](https://fmt.dev/)
-- [youtube-dl](https://youtube-dl.org/)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [mpv](https://mpv.io)
 
 ## Casks

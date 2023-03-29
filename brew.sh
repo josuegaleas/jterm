@@ -4,10 +4,10 @@ brew tap martido/graph
 brew tap osx-cross/avr
 brew tap homebrew/cask-fonts
 brew install zsh zplug
-brew install python java vim
+brew install python openjdk vim
 brew install fortune cowsay
 brew install graphviz tldr
 brew install avr-gcc dfu-programmer
-brew install catch2 glfw fmt
-brew install youtube-dl mpv
+brew install cmake catch2 fmt
+brew install yt-dlp mpv
 brew install --cask kitty font-hack xquartz

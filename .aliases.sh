@@ -3,7 +3,7 @@ alias ls='ls -FG'
 alias ll='ls -aFGhlo'
 alias rm='rm -rf'
 alias clr='tput reset'
-alias grep='grep --color -rnw'
+alias grep='grep --color -rn'
 alias ssh='TERM=xterm-256color ssh'
 
 # Git
