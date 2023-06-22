@@ -5,8 +5,9 @@ Yet another dotfiles repo on GitHub. Powered by [Homebrew](https://brew.sh/).
 ```bash
 xcode-select --install
 zsh -c "$(curl -fsSL https://raw.githubusercontent.com/josuegaleas/jterm/master/install.sh)"
+# Restart the terminal
+zplug install
 ```
-After installing, and restarting the terminal, run `zplug install`.
 
 ## Taps
 - [graph](https://github.com/martido/homebrew-graph)
@@ -23,8 +24,8 @@ After installing, and restarting the terminal, run `zplug install`.
 - [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
 - [graphviz](https://www.graphviz.org/)
 - [tldr](https://tldr.sh/)
-- [avr-gcc](https://www.gnu.org/software/gcc/gcc.html)
-- [dfu-programmer](https://dfu-programmer.sourceforge.io/)
+- [avr-gcc](https://gcc.gnu.org/)
+- [dfu-programmer](https://github.com/dfu-programmer/dfu-programmer)
 - [cmake](https://www.cmake.org/)
 - [catch2](https://github.com/catchorg/Catch2)
 - [fmt](https://fmt.dev/)
@@ -38,5 +39,5 @@ After installing, and restarting the terminal, run `zplug install`.
 
 ## Also Included
 - [jvim](https://github.com/josuegaleas/jvim)
-- [pipdeptree](https://github.com/naiquevin/pipdeptree)
+- [pipdeptree](https://github.com/tox-dev/pipdeptree)
 - [grip](https://github.com/joeyespo/grip)
